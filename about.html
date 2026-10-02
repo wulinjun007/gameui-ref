@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>关于本站 · GameUI Ref</title>
+<meta name="description" content="GameUI Ref 是一个游戏界面设计参考图鉴的静态站点，说明数据来源、图片来源与版权声明、设计语言。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23161616'/%3E%3Cpath d='M9 11h14M9 16h9M9 21h12' stroke='%230EA5E9' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-page="about">
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="index.html" aria-label="GameUI Ref 首页">
+      <svg width="26" height="26" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#0EA5E9"/><path d="M9 11h14M9 16h9M9 21h12" stroke="#161616" stroke-width="3" stroke-linecap="round"/></svg>
+      GameUI<em>Ref</em>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="index.html" data-nav="index">首页</a>
+      <a href="games.html" data-nav="games">游戏库</a>
+      <a href="screenshots.html" data-nav="shots">截图库</a>
+      <a href="works.html" data-nav="works">作品</a>
+      <a href="articles.html" data-nav="articles">文章</a>
+      <a href="about.html" data-nav="about">关于</a>
+    </nav>
+    <div class="nav-search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(235,235,235,.4)" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <input id="nav-search" type="search" placeholder="搜索游戏、作品、文章…" autocomplete="off" aria-label="站内搜索">
+      <div class="search-pop" id="search-pop"></div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div style="padding-top:48px;max-width:820px">
+    <span class="eyebrow">ABOUT</span>
+    <h1 class="h1" style="margin-top:14px;font-size:clamp(28px,3.4vw,44px)">关于本站</h1>
+
+    <section style="margin-top:40px">
+      <h2 class="h3">这是什么</h2>
+      <p class="body" style="margin-top:12px">GameUI Ref 是一个<strong style="color:var(--text-1)">游戏界面设计参考图鉴</strong>：把分散的游戏 UI 资料整理成可筛选、可检索、可放大细看的静态数据库，帮助游戏界面设计师找参考、比风格、学结构。功能形态参照 <a href="https://www.gameui.net/" target="_blank" rel="noopener" style="color:var(--accent)">GAMEUI.net</a>（游戏 UI 设计师社区）。</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;margin-top:24px">
+        <div style="border:1px solid var(--line);border-radius:var(--r-lg);padding:20px;background:var(--surface)"><b class="mono" style="font-size:26px">568</b><br><span style="font-size:13px;color:var(--text-2)">游戏全案</span></div>
+        <div style="border:1px solid var(--line);border-radius:var(--r-lg);padding:20px;background:var(--surface)"><b class="mono" style="font-size:26px">1200</b><br><span style="font-size:13px;color:var(--text-2)">实机界面截图</span></div>
+        <div style="border:1px solid var(--line);border-radius:var(--r-lg);padding:20px;background:var(--surface)"><b class="mono" style="font-size:26px">120</b><br><span style="font-size:13px;color:var(--text-2)">原创设计作品</span></div>
+        <div style="border:1px solid var(--line);border-radius:var(--r-lg);padding:20px;background:var(--surface)"><b class="mono" style="font-size:26px">63</b><br><span style="font-size:13px;color:var(--text-2)">方法论文章</span></div>
+      </div>
+    </section>
+
+    <section style="margin-top:56px">
+      <h2 class="h3">怎么用</h2>
+      <ul class="body" style="margin-top:12px;padding-left:20px;display:flex;flex-direction:column;gap:8px">
+        <li><strong style="color:var(--text-1)">找风格</strong>：在<a href="games.html" style="color:var(--accent)">游戏库</a>按国风 / 欧美 / 二次元 / Q版卡通等 7 种风格、平台、类型、年份组合筛选。</li>
+        <li><strong style="color:var(--text-1)">看细节</strong>：在<a href="screenshots.html" style="color:var(--accent)">截图库</a>点击任意截图放大到最高 1080px 宽的原图，方向键 ← → 连续翻看，灯箱里能看到尺寸与标签。</li>
+        <li><strong style="color:var(--text-1)">学方法</strong>：<a href="articles.html" style="color:var(--accent)">文章区</a>收录规范搭建、商业化系统设计等方法论，点击前往原文。</li>
+      </ul>
+    </section>
+
+    <section id="credits" style="margin-top:56px">
+      <h2 class="h3">图片来源与版权</h2>
+      <div style="border:1px solid var(--line);border-left:3px solid var(--highlight);border-radius:var(--r-md);padding:18px 20px;margin-top:14px;background:var(--surface)">
+        <p class="body" style="font-size:14px">本站所有游戏界面截图、作品图片与文章数据均采集自 <a href="https://www.gameui.net/" target="_blank" rel="noopener" style="color:var(--accent)">GAMEUI.net</a>（快照日期 2026-10-02），通过其公开图片 CDN 引用，未复制存储任何图片文件。图片与内容版权归原作者、上传者及相关游戏公司所有。本站为个人学习与技术演示用途的非商业静态站点，如需移除内容请联系我们。</p>
+      </div>
+      <p class="body" style="margin-top:16px;font-size:14px">截图库当前覆盖 10 款游戏的完整截图集：原神、明日方舟、王者荣耀、哈利波特：魔法觉醒、和平精英、战双帕弥什、天涯明月刀、忘川风华录、阴阳师：百闻牌、斗罗大陆：魂师对决。每张截图的灯箱面板均提供 GAMEUI 源页链接。</p>
+    </section>
+
+    <section style="margin-top:56px">
+      <h2 class="h3">设计语言</h2>
+      <p class="body" style="margin-top:12px;font-size:14px">站点视觉基于「zcode-dark」设计语言构建：#161616 深色底 + oklch 三级面板色阶 + sky-500 单点强调 + amber-500 商业高亮，hairline（白 @8%）分层替代阴影，胶囊主按钮 + 10/16px 圆角卡，60/700 大标题与 Geist 系字体栈。图片为主的图库站点选择暗色底，是为了让界面截图本身成为页面上最亮的存在。</p>
+    </section>
+
+    <section style="margin-top:56px;margin-bottom:32px">
+      <h2 class="h3">技术</h2>
+      <p class="body" style="margin-top:12px;font-size:14px">纯静态实现：HTML + 原生 CSS/JS，无框架、无构建步骤。数据以内嵌 JSON 随站点分发（218 KB），筛选、搜索、灯箱全部在浏览器本地完成。</p>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-base" style="margin-top:0;border-top:none;padding-top:0">
+      <span>© <span id="fyear">2026</span> GameUI Ref · 数据与图片来自 <a href="https://www.gameui.net/" target="_blank" rel="noopener" style="color:var(--text-2)">GAMEUI.net</a>，仅供学习参考</span>
+      <span class="mono">Snapshot 2026-10-02</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

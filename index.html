@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GameUI Ref · 游戏界面参考图鉴 — 568 款游戏 · 1200 张界面截图</title>
+<meta name="description" content="游戏 UI 设计参考图鉴：收录 568 款游戏全案、1200 张界面截图、120 个设计作品与 63 篇干货文章，按国风 / 欧美 / 二次元 / Q版卡通等风格浏览，供游戏界面设计师学习参考。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23161616'/%3E%3Cpath d='M9 11h14M9 16h9M9 21h12' stroke='%230EA5E9' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-page="index">
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="index.html" aria-label="GameUI Ref 首页">
+      <svg width="26" height="26" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#0EA5E9"/><path d="M9 11h14M9 16h9M9 21h12" stroke="#161616" stroke-width="3" stroke-linecap="round"/></svg>
+      GameUI<em>Ref</em>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="index.html" data-nav="index">首页</a>
+      <a href="games.html" data-nav="games">游戏库</a>
+      <a href="screenshots.html" data-nav="shots">截图库</a>
+      <a href="works.html" data-nav="works">作品</a>
+      <a href="articles.html" data-nav="articles">文章</a>
+      <a href="about.html" data-nav="about">关于</a>
+    </nav>
+    <div class="nav-search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(235,235,235,.4)" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <input id="nav-search" type="search" placeholder="搜索游戏、作品、文章…" autocomplete="off" aria-label="站内搜索">
+      <div class="search-pop" id="search-pop"></div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg" id="hero-bg" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <span class="eyebrow">GAME UI REFERENCE · 游戏界面参考图鉴</span>
+    <h1 class="h1" style="margin-top:20px">看真实游戏界面，<br>学游戏 UI 设计。</h1>
+    <p class="sub">收录 568 款游戏全案与 1200 张实机界面截图，按风格、平台、类型、年份筛选，每一张都可放大到原始分辨率细看布局、层级与信息密度。</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="screenshots.html">进入截图库</a>
+      <a class="btn btn-ghost" href="games.html">浏览游戏全案 →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="st"><b id="st-games">—</b><span>游戏全案</span></div>
+      <div class="st"><b id="st-shots">—</b><span>界面截图</span></div>
+      <div class="st"><b id="st-works">—</b><span>设计作品</span></div>
+      <div class="st"><b><em id="st-articles">—</em></b><span>干货文章</span></div>
+    </div>
+  </div>
+</section>
+
+<main class="container">
+  <section class="section">
+    <div class="sec-head">
+      <div><span class="eyebrow">HOT GAMES</span><h2 class="h2" style="margin-top:10px">热门游戏全案</h2></div>
+      <a class="more" href="games.html">全部 568 款 →</a>
+    </div>
+    <div class="game-grid" id="hot-games"></div>
+  </section>
+
+  <section class="section">
+    <div class="sec-head">
+      <div><span class="eyebrow">STYLE COLLECTIONS</span><h2 class="h2" style="margin-top:10px">按风格找参考</h2></div>
+      <a class="more" href="games.html">全部风格 →</a>
+    </div>
+    <div class="style-grid" id="style-grid"></div>
+  </section>
+
+  <section class="section">
+    <div class="sec-head">
+      <div><span class="eyebrow">SCREENSHOTS</span><h2 class="h2" style="margin-top:10px">最新界面截图</h2></div>
+      <a class="more" href="screenshots.html">进入截图库 →</a>
+    </div>
+    <div class="masonry" id="shot-preview"></div>
+  </section>
+
+  <section class="section">
+    <div class="sec-head">
+      <div><span class="eyebrow">DESIGN WORKS</span><h2 class="h2" style="margin-top:10px">高浏览设计作品</h2></div>
+      <a class="more" href="works.html">全部作品 →</a>
+    </div>
+    <div class="work-grid" id="work-preview"></div>
+  </section>
+
+  <section class="section">
+    <div class="sec-head">
+      <div><span class="eyebrow">ARTICLES</span><h2 class="h2" style="margin-top:10px">方法论文章</h2></div>
+      <a class="more" href="articles.html">全部文章 →</a>
+    </div>
+    <div class="article-list" id="article-preview"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="fg-brand">
+        <a class="logo" href="index.html">
+          <svg width="24" height="24" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#0EA5E9"/><path d="M9 11h14M9 16h9M9 21h12" stroke="#161616" stroke-width="3" stroke-linecap="round"/></svg>
+          GameUI<em>Ref</em>
+        </a>
+        <p>游戏界面设计参考图鉴。数据与图片采集自 <a href="https://www.gameui.net/" target="_blank" rel="noopener" style="color:var(--accent)">GAMEUI.net</a>，版权归原作者与原游戏公司所有，仅供学习交流。</p>
+      </div>
+      <div class="fg-cols">
+        <div class="fg-col">
+          <b>浏览</b>
+          <a href="games.html">游戏库</a>
+          <a href="screenshots.html">截图库</a>
+          <a href="works.html">作品</a>
+        </div>
+        <div class="fg-col">
+          <b>风格</b>
+          <a href="games.html?style=国风">国风</a>
+          <a href="games.html?style=二次元">二次元</a>
+          <a href="games.html?style=Q版卡通">Q版卡通</a>
+        </div>
+        <div class="fg-col">
+          <b>关于</b>
+          <a href="about.html">关于本站</a>
+          <a href="about.html#credits">图片来源与版权</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>© <span id="fyear">2026</span> GameUI Ref · 学习参考用途</span>
+      <span class="mono">Design language: zcode-dark (oklch) · Data snapshot 2026-10-02</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
