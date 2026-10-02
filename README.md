@@ -2,7 +2,7 @@
 
 一个游戏 UI 设计参考图鉴的纯静态站点：把分散的游戏界面资料整理成可筛选、可检索、可放大细看的暗色图鉴数据库。
 
-- **线上**：https://gameui-ref.netlify.app
+- **线上**：https://wulinjun007.github.io/gameui-ref/ （GitHub Pages；Netlify 版 gameui-ref.netlify.app 待账户额度恢复后部署，站点已建好 ID `97e406cd-d868-41be-9d94-b7ccd29af727`）
 - **功能形态参照**：[GAMEUI.net](https://www.gameui.net/)（游戏 UI 设计师社区）
 - **设计语言**：`zcode-dark`（来自 design-system-extraction-2026-10 / 03-zcode 提取）：#161616 底 + oklch 三级面板 + sky-500 单点强调 + amber-500 高亮 + hairline 分层（无阴影）+ 胶囊主按钮 + 60/700 大标题
 
